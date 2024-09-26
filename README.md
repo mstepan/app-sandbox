@@ -1,4 +1,4 @@
-# Python 3.11.x template
+# Python 3.11.x + Makefile template
 
 ## Pre-requisites
 * `Python 3.11.x`
