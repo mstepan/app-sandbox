@@ -58,9 +58,3 @@ To run all unit-tests with code coverage use:
 ```bash
 make test
 ```
-
-## References
-
-* Project structure and domain-driver approach in python inspired by [cosmicpython](https://github.com/cosmicpython/code/tree/chapter_05_high_gear_low_gear)
-* [Flask 3 documentation](https://flask.palletsprojects.com/en/3.0.x/)
-* [SqlAlchemy 2 documentation](https://docs.sqlalchemy.org/en/20/index.html)
