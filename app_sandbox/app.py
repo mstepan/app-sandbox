@@ -1,5 +1,6 @@
 import collections
 import math
+from array import array
 
 Card = collections.namedtuple("Card", ["rank", "suite"])
 
@@ -28,8 +29,8 @@ suites_order = dict(spades=3, hearts=2, diamonds=1, clubs=0)
 # suite: spades, hearts, diamonds, clubs
 def spades_highest(single_card: Card):
     return (
-        Deck.ranks.index(single_card.rank) * len(suites_order)
-        + suites_order[single_card.suite]
+            Deck.ranks.index(single_card.rank) * len(suites_order)
+            + suites_order[single_card.suite]
     )
 
 
@@ -64,9 +65,11 @@ class Vector:
 
 
 if __name__ == "__main__":
-    v1 = Vector(0, 0)
 
-    if v1:
-        print("true")
-    else:
-        print("false")
+    colors = ["red", "green", "blue"]
+    sizes = ["S", "M", "L"]
+
+    for val in (f'{color} {size}'
+                for color in colors
+                for size in sizes):
+        print(val)
