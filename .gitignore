@@ -1,0 +1,18 @@
+# PyCharm files
+.idea/
+
+# Vritaul environment
+.venv/
+
+# Python cache
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Code coverage files
+htmlcov/
+.coverage
+
+dist/
+build/
+*.egg-info/
