@@ -1,5 +1,6 @@
 import collections
 import math
+import sys
 
 Card = collections.namedtuple("Card", ["rank", "suite"])
 
@@ -64,9 +65,10 @@ class Vector:
 
 
 if __name__ == "__main__":
-
     colors = ["red", "green", "blue"]
     sizes = ["S", "M", "L"]
 
     for val in (f"{color} {size}" for color in colors for size in sizes):
         print(val)
+
+    print(f"Python: {sys.version}")
